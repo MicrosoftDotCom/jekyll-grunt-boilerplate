@@ -1,0 +1,12 @@
+<script src="{{ "/assets/scripts/master.js" | prepend: site.baseurl }}"></script>
+<script>
+    /*
+        Available parameter map:
+            - locale (string) [default: 'en-us']: locale string, i.e. 'en-us', 'fr-fr', etc.
+            - version (string) [default: 'V3']: version of UHF to use, i.e. 'V3', 'V1_2'
+            - partner_id (string) [default: 'retailstore']
+            - header_id (string) [default: 'OneStoreSharedHeader']
+            - footer_id (string) [default: 'MainFooter']
+    */
+    UHF.load({ locale: 'en-us', partner_id: 'surface', header_id: 'surface-header', footer_id: 'surface-footer'  });
+</script>
